@@ -1,0 +1,95 @@
+import comrouter from './comrouter.js'
+
+export default [
+{
+	path:'/',
+	name:'Man',
+	component:comrouter.Man,
+
+	children:[
+		{
+			path:'/',
+			name:'Shujia',
+			component:comrouter.Shujia
+		},
+		{
+			path:'jx',
+			name:'Jx',
+			component:comrouter.Jx
+		},
+		{
+			path:'wd',
+			name:'Wd',
+			component:comrouter.Wd
+		},
+		{
+			path:'sk',
+			name:'Sk',
+			component:comrouter.Sk
+		},
+		{
+			path:'mf',
+			name:'Mf',
+			component:comrouter.Mf
+		},
+	
+	]
+
+},
+{
+	path:'xq',
+	name:'Xq',
+	component:comrouter.Xq
+},
+{
+	path:'fl',
+	name:'Fl',
+	component:comrouter.Fl
+},
+{
+	path:'bd',
+	name:'Bd',
+	component:comrouter.Bd
+},
+{
+	path:'ss',
+	name:'Ss',
+	component:comrouter.Ss
+},
+{
+	path:'jg',
+	name:'Jg',
+	component:comrouter.Jg
+},
+{
+	path:'zj',
+	name:'Zj',
+	component:comrouter.Zj
+},
+{
+	path:'pl',
+	name:'Pl',
+	component:comrouter.Pl
+},
+{
+	path:'fb',
+	name:'Fb',
+	component:comrouter.Fb
+},
+{
+	path:'kg',
+	name:'Kg',
+	component:comrouter.Kg
+},
+{
+	path:'nr',
+	name:'Nr',
+	component:comrouter.Nr
+},
+{
+	path:'gdd',
+	name:'Gdd',
+	component:comrouter.Gdd
+}
+
+]
